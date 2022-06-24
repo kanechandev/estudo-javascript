@@ -20,3 +20,4 @@
 
 - Estrutura de condicional: **if/else if**
 - Operadores lógicos: **&&** e **||**
+- Variáveis **var, let, const** . Se atentar que let funciona dentro do escopo e não pode ser redeclara;

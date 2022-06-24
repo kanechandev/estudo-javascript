@@ -1,11 +1,6 @@
-var hora = 16;
+let nome = "José";
 
-if(hora>=0 && hora<12){
-    console.log("Bom dia!");
-}else if(hora<18){
-    console.log("Boa tarde!");
-}else if(hora<24){
-    console.log("Boa noite!");
-}else{
-    console.log("Hora inválida");
+if(nome == "José"){
+    let idade = 65;
+    console.log(idade);
 }
