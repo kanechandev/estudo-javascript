@@ -2,7 +2,7 @@
 ---
 
 - Estrutura básica
-- Alterando forms através de: document.getElementById("titulo").innerHTML
+- Alterando forms através de: **document.getElementById("nome-tag").innerHTML**
 - Funções para apresentar informações:
    - document.write();
    - window.alert();
@@ -18,4 +18,5 @@
 
    `alert(nomecompleto+" tem "+idade+" anos.");`
 
-   
+- Estrutura de condicional: **if/else if**
+- Operadores lógicos: **&&** e **||**

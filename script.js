@@ -1,7 +1,11 @@
-var nome = "José";
-var sobrenome = "Silva";
-var idade = 65;
+var hora = 16;
 
-var nomecompleto = nome+" "+sobrenome;
-
-alert(nomecompleto+" tem "+idade+" anos.");
+if(hora>=0 && hora<12){
+    console.log("Bom dia!");
+}else if(hora<18){
+    console.log("Boa tarde!");
+}else if(hora<24){
+    console.log("Boa noite!");
+}else{
+    console.log("Hora inválida");
+}
