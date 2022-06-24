@@ -1,5 +1,7 @@
-document.getElementById("titulo").innerHTML = "Sou um título dinâmico.";
+var nome = "José";
+var sobrenome = "Silva";
+var idade = 65;
 
-document.write("Algum texto.");
-window.alert("Mensagem de exemplo.");
-console.log("Mensagem que irá aparecer no console.");
+var nomecompleto = nome+" "+sobrenome;
+
+alert(nomecompleto+" tem "+idade+" anos.");
