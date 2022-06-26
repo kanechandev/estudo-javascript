@@ -7,12 +7,9 @@
     <title>Estudo de JavaScript</title>
 </head>
 <body>
-    <h1 id="titulo" onmouseover="console.log('Mouse passou sobre')"
-        onmouseout="console.log('Tirou o mouse')">Estudo de JS</h1>
+    <h1 id="titulo">Estudo de JS</h1>
 
-    <input id="campo" type="text" name="usuario" value="Informe o nome">
-
-    <button onclick="document.getElementById('titulo').innerHTML='Foi clicado!'">Salvar</button>
+    <input id="campo" type="text" onkeyup="digitou(event)">
 
     <script src="script.js"></script>
 </body>
