@@ -1,7 +1,25 @@
-function digitou(e){
-    if(e.ctrlKey == true && e.keyCode == 13){
-        let texto = document.getElementById("campo").value;
+function azul(){
+    limpar();
+    document.getElementById("titulo").classList.add('azul');
+}
 
-        console.log(texto);
-    }
+function verde(){
+    limpar();
+    document.getElementById("titulo").classList.add('verde');
+}
+
+function vermelho(){
+    limpar();
+    document.getElementById("titulo").classList.add('vermelho');
+}
+
+function limpar(){
+    document.getElementById("titulo").classList.remove("azul");
+    document.getElementById("titulo").classList.remove("verde");
+    document.getElementById("titulo").classList.remove("vermelho");
+}
+
+function mostrarTelefone(e){
+    e.style.display = 'none';
+    document.getElementById("telefone").style.display = "block";
 }
