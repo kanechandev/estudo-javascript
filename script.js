@@ -1,7 +1,7 @@
-function teste(){
-    console.log(document.getElementsByClassName('lista'));
-    console.log(document.querySelector('ol.lista'));    
-    console.log(document.querySelector('#titulo'));
-    console.log(document.querySelector('#titulo').innerHTML = 'Alterando o título pela função teste()');
-    console.log(document.querySelectorAll('.lista'));        
-}
+document.getElementById('elemento').innerHTML = "José";
+
+document.getElementsByClassName('lista');
+
+document.getElementsByTagName('div');
+
+document.getElementsByName('telefone');
