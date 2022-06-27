@@ -31,3 +31,4 @@
 - while
 - querySelector, selecionar elementos
 - DOM (getElementById; getElementsByClassName, getElementsByTagName, getElementsByName)
+- querySelectorAll();
