@@ -26,3 +26,4 @@
 - mudança de estilos e manipulação de elementos por display
 - arrays simples e compostos
 - objetos
+- menu lateral
