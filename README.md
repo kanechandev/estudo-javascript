@@ -29,3 +29,4 @@
 - menu lateral
 - switch
 - while
+- querySelector, selecionar elementos
