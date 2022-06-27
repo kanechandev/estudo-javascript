@@ -27,3 +27,4 @@
 - arrays simples e compostos
 - objetos
 - menu lateral
+- switch

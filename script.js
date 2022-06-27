@@ -1,10 +1,28 @@
-function menuToogle(){
-    let menuArea = document.getElementById("menu-area");
-    let menuImg = document.getElementById("menu-img");
+let dia = 3;
+let diaNome = '';
 
-    if(menuArea.style.width == '200px'){
-        menuArea.style.width = '0px';
-    }else{
-        menuArea.style.width = '200px';
-    }
+switch(dia){
+    case 1:
+        diaNome = 'Domingo';
+        break;
+    case 2:
+        diaNome = 'Segunda';
+        break;
+    case 3:
+        diaNome = 'Terça';
+        break;
+    case 4:
+        diaNome = 'Quarta';
+        break;
+    case 5:
+        diaNome = 'Quinta';
+        break;
+    case 6:
+        diaNome = 'Sexta';
+        break;
+    case 7:
+        diaNome = 'Sábado';
+        break;
 }
+
+document.getElementById("dia").innerHTML = "Hoje é: "+diaNome;
