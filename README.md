@@ -28,3 +28,4 @@
 - objetos
 - menu lateral
 - switch
+- while

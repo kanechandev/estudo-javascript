@@ -1,19 +1,10 @@
-let texto = '';
+let html = '';
 
-for(let i=1; i<=10; i++){
-    texto = texto + i + '<br/>';
+let i = 1;
+
+while(i<=10){
+    html += "i : "+i+"<br/>";
+    i++;
 }
-
-document.getElementById("dia").innerHTML = texto;
-
-let carros = ['Onix', 'Gol', 'Kwid', 'Mobi'];
-
-let html = '<ul>';
-
-for(let i in carros){
-    html+='<li>'+ carros[i] +'</li>';
-}
-
-html += '</ul>';
 
 document.getElementById("relatorio").innerHTML = html;
