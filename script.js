@@ -1,25 +1,17 @@
-function azul(){
-    limpar();
-    document.getElementById("titulo").classList.add('azul');
-}
+let carros = [
+    'Mobi',
+    'Kwid',
+    'Onix',
+    function(){
+        console.log('Testando função em vetor...');
+    }
+];
 
-function verde(){
-    limpar();
-    document.getElementById("titulo").classList.add('verde');
-}
+carros[3]();
 
-function vermelho(){
-    limpar();
-    document.getElementById("titulo").classList.add('vermelho');
-}
+let ingredientes = [
+    ['arroz', 'feijão', 'macarrão'],
+    ['laranja', 'banana', 'tangerina']
+];
 
-function limpar(){
-    document.getElementById("titulo").classList.remove("azul");
-    document.getElementById("titulo").classList.remove("verde");
-    document.getElementById("titulo").classList.remove("vermelho");
-}
-
-function mostrarTelefone(e){
-    e.style.display = 'none';
-    document.getElementById("telefone").style.display = "block";
-}
+console.log(ingredientes[1][0]);
