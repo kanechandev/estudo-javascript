@@ -24,3 +24,5 @@
 - Eventos onclick, onmouseover, onmouseout
 - ctrlKey e keyCode
 - mudança de estilos e manipulação de elementos por display
+- arrays simples e compostos
+- objetos

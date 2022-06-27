@@ -1,17 +1,11 @@
-let carros = [
-    'Mobi',
-    'Kwid',
-    'Onix',
-    function(){
-        console.log('Testando função em vetor...');
-    }
-];
+let carro = {
+    marca: 'Fiat',
+    carro: 'Mobi',
+    peso: '960kg',
+    ligar: function(){
+        console.log("Deu partida no carro");
+    },
+}
 
-carros[3]();
-
-let ingredientes = [
-    ['arroz', 'feijão', 'macarrão'],
-    ['laranja', 'banana', 'tangerina']
-];
-
-console.log(ingredientes[1][0]);
+console.log("Marca: "+carro.marca);
+carro.ligar();
