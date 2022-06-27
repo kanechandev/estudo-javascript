@@ -32,3 +32,4 @@
 - querySelector, selecionar elementos
 - DOM (getElementById; getElementsByClassName, getElementsByTagName, getElementsByName)
 - querySelectorAll();
+- manipular class com tag;
