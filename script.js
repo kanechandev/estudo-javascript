@@ -1,28 +1,19 @@
-let dia = 3;
-let diaNome = '';
+let texto = '';
 
-switch(dia){
-    case 1:
-        diaNome = 'Domingo';
-        break;
-    case 2:
-        diaNome = 'Segunda';
-        break;
-    case 3:
-        diaNome = 'Terça';
-        break;
-    case 4:
-        diaNome = 'Quarta';
-        break;
-    case 5:
-        diaNome = 'Quinta';
-        break;
-    case 6:
-        diaNome = 'Sexta';
-        break;
-    case 7:
-        diaNome = 'Sábado';
-        break;
+for(let i=1; i<=10; i++){
+    texto = texto + i + '<br/>';
 }
 
-document.getElementById("dia").innerHTML = "Hoje é: "+diaNome;
+document.getElementById("dia").innerHTML = texto;
+
+let carros = ['Onix', 'Gol', 'Kwid', 'Mobi'];
+
+let html = '<ul>';
+
+for(let i in carros){
+    html+='<li>'+ carros[i] +'</li>';
+}
+
+html += '</ul>';
+
+document.getElementById("relatorio").innerHTML = html;
